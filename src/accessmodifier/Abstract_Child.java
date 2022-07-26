@@ -1,7 +1,10 @@
 package accessmodifier;
 
 public class Abstract_Child extends Abstract_Class{
-	
+	public void pratice01()
+	{
+		System.out.println("Hello new branchjava01");
+	}
 	
 	public void editInfo()
 	{
