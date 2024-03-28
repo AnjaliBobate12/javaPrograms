@@ -6,8 +6,8 @@ public class If_vowels_PresentOrNot {
 	public static void main(String[] args)
 	{
 	String s = "welcome";
-	int length =s.length();
-	int lastindex = length-1;
+	
+	int lastindex = s.length()-1;
 	int count = 0;
 	boolean b = false;
 	for(int i = 0; i<=lastindex;i++)

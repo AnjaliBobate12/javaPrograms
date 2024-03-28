@@ -14,13 +14,14 @@ public class Strings {
 	char z = s.charAt(i);
 	if((z=='a')||(z=='e')||(z=='i')||(z=='o')||(z=='u'))
 	{
-	
+	count++;
 	 System.out.println(z);
 	}
 	
-	
-	
+		
 	}
+	System.out.println(count);
+	
 	}
 	
 	

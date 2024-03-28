@@ -133,13 +133,31 @@ public class StringMethods {
 	String s53 = s48.replaceAll("[0-9]", "#");
 	System.out.println(s53);
 	
+	//////////////21. concat examples///////////////////////
+	String s54 = "hello";
+	String s55 = "java";
+	String s56 = "Reader";
+	 
+	String s57 = s54.concat(s55);
+	System.out.println(s57);/////hellojava	
 	
+	////////////concating multipal string////////
+	String s58 = s54.concat(s55).concat(s56);
+	System.out.println(s58);////////hellojavareader
 	
+	/////concating special char////////////
+	String s59 = s54.concat(" ").concat(s55);///hello java 
+	System.out.println(s59);
 	
+	String s60 = s54.concat("!!!!!!!!!!!!");
+	System.out.println(s60);///////////////hello!!!!!!!!!!!
 	
+	String s61 =  s54.concat("@@@");
+	System.out.println(s61);////////////hello@@@
 	
-	
-	
+	//////concating before////////////
+	String s62 = "I love " .concat(s55);
+	System.out.println(s62);/////////////I love java
 	
 	
 	

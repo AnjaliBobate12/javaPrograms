@@ -6,10 +6,10 @@ public class Reverse_VelocityBySir {
 
 	String s1= "velocity is job";
 	String rev ="";
-	int size = s1.length();
-	int indexval = size-1 ;
 	
-	for(int i=indexval; i>=0; i--)
+	
+	
+	for(int i=s1.length()-1; i>=0; i--)
 	{
 		rev = rev + s1.charAt(i); 
 	}

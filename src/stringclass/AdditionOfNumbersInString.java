@@ -6,17 +6,18 @@ public class AdditionOfNumbersInString {
 		int sum = 0;
 		int flag= 0;
 		String num= "";
-		String s = "vnwsekur7584uowlkfnakueir43irlkendf49i02";
+		String s = "vr75";
+		int l = s.length();
 		for(int i = 0;i<s.length();i++)
 		{
 			if(Character.isDigit(s.charAt(i)))
 			{
 				num = num + s.charAt(i);
 				flag = 1;
-				if(i!= (s.length()-1))
-				{
-					continue;
-				}
+//				if(i!= (s.length()-1))
+//				{
+//					continue;
+//				}
 			}
 		
 		if(flag==1)
@@ -26,10 +27,10 @@ public class AdditionOfNumbersInString {
 			num="";
 			flag =0;
 			
-			
-		}
+			}
 		
 	}
 		System.out.println("sum is : "+sum);
+		System.out.println(l);
 }
 }

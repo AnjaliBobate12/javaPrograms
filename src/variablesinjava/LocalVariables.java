@@ -19,8 +19,14 @@ public class LocalVariables {
 	}
 	
 	public static void main(String[] args) {
-		m1();
-		LocalVariables b1 = new LocalVariables();
-		b1.m2();
+//		m1();
+//		LocalVariables b1 = new LocalVariables();
+//		b1.m2();
+//		
+		
+		int a = 10;
+		int z = a++;
+		System.out.println(z);
+		System.out.println(a);
 	}
 }

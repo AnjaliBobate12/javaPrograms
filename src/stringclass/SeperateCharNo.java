@@ -7,7 +7,7 @@ public static void main(String[] args)
 	String s3="";
 	String s4="";
 	boolean s2 = true;
-	for(int i=0; i<=s1.length()-1;i++)
+	for(int i=0; i<s1.length();i++)
 	{
 		char c = s1.charAt(i);
 		if( s2 == Character.isAlphabetic(c))

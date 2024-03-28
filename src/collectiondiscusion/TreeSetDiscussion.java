@@ -25,7 +25,7 @@ public class TreeSetDiscussion {
 	ts1.add(78);
 	System.out.println(ts1);
 	
-	TreeSet<String> ts2 = new TreeSet<String>(new MyComp());
+	TreeSet<String> ts2 = new TreeSet<String>();
 	ts2.add("34839");
 	ts2.add("Delhi");
 	ts2.add("Kolkata");

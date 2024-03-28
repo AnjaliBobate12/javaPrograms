@@ -5,7 +5,7 @@ public class UpperCaseInitialLetter {
 	public static void main(String[] args) {
 		
 	
-	String s = "this is string";
+	String s = "this is string I am anju";
 	String[] s1 = s.split(" ");
 	String s4=""; 
 	for(String s2:s1)
@@ -17,5 +17,6 @@ public class UpperCaseInitialLetter {
 	}
 	
 	System.out.println(s4);
-}
+
+	}
 }

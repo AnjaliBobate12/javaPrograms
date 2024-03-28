@@ -12,5 +12,5 @@ public class Vertical_Velocity {
 			char a = s.charAt(i);
 			System.out.println(a);
 		}
-	}
+		}
 }

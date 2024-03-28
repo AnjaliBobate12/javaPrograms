@@ -6,9 +6,9 @@ public class VowelsPresentInString {
 	{
 	String s = "welcome";
 	int length =s.length();
-	int lastindex = length-1;
+	int lastindex = length;
 	int count = 0;
-	for(int i = 0; i<=lastindex;i++)
+	for(int i = 0; i<lastindex;i++)
 	{
 	char z = s.charAt(i);
 	if((z=='a')||(z=='e')||(z=='i')||(z=='o')||(z=='u'))

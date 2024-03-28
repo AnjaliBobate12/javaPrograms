@@ -1,7 +1,7 @@
 package stringclass;
 
 public class Count_Repeatation {
-public static void main(String[] args)
+public static void m1(char a1)
 {
 	 
 	String s28 = "aabbaaccd";
@@ -11,14 +11,21 @@ public static void main(String[] args)
 	{
 		char c = s28.charAt(i);
 		
-		if(c=='a')
+		if(c==a1)
 		{
 			count++;
 		}
 		
 	}
 	
-	System.out.println("Character a is present for "+count+" times");
-		
+System.out.println("Character "+a1+"  is present for "+count+" times");
+
+
 }
+
+public static void main(String[] agrs)
+{
+	m1('c');
+	}
+		
 }
