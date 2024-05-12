@@ -11,7 +11,9 @@ public class Inverting_Velocity {
 	{
 		
 		v2 = v2 + v1.charAt(i);
+		
 	}
 	System.out.print(v2);
+	System.out.println("hiiiiiiiiiii");
 }
 }

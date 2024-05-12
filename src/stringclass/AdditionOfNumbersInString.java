@@ -6,7 +6,7 @@ public class AdditionOfNumbersInString {
 		int sum = 0;
 		int flag= 0;
 		String num= "";
-		String s = "vr75";
+		String s = "vr7512";
 		int l = s.length();
 		for(int i = 0;i<s.length();i++)
 		{
@@ -18,11 +18,14 @@ public class AdditionOfNumbersInString {
 //				{
 //					continue;
 //				}
+				
+				
 			}
 		
 		if(flag==1)
 		{
 			int value = Integer.parseInt(num);
+//			int value = Integer.parseInt(s, s.charAt(i));
 			sum = sum + value;
 			num="";
 			flag =0;
